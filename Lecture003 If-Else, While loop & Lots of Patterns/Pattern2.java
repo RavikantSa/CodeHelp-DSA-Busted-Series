@@ -21,7 +21,7 @@ public class Pattern2 {
         // Procedure to Print the Required Pattern
         for(int row = 1; row < noOfRows; row++){
             for(int column = 1; column <= row; column++){
-                System.out.print("*");
+                System.out.print("*" + " ");
             }
             System.out.println();
         }
